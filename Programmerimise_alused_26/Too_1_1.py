@@ -87,7 +87,7 @@ arv4=int(input("Sisesta neljas täisarv: "))
 arv5=int(input("Sisesta viies täisarv: "))
 summa=arv1+arv2+arv3+arv4+arv5
 jagaja=int(input("Sisesta arv, millega jagada: "))
-tulemus=summa/jagaja
+# tulemus=summa/jagaja
 print("Tulemus:", tulemus)
 print("Täisarvuline osa:", int(tulemus))
 print("Jääk:", summa % jagaja)
