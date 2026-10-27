@@ -56,3 +56,34 @@ except ValueError:
     print("Valed andmed")
     
 #Ülesanne 4
+# Koosta programm, mis arvutab välja Maa ümbermõõdu ekvaatori kohal 2-eurostes müntides ehk teisisõnu:
+# kui palju 2-euroseid münte tuleb panna üksteise kõrvale, et rida ulatuks ümber Maa. Kasuta teadmist, 
+# et Maa raadius ekvaatori kohal on 6378 km. 
+
+
+raadius_km = 6378
+myndi_mm = 25.75 
+pi = 3.14
+ekvaator_km = 2 * pi * raadius_km
+ekvaator_mm = ekvaator_km * 1000000
+myntide_arv = round(ekvaator_mm / myndi_mm)
+print("Ekvaatorile mahub nii palju", myntide_arv, "münte")
+#Ülesanne 5
+a="Kill-koll"
+b="Killadi-koll")
+print(a.upper()* 3 + b.upper() + a.upper()* 3 + b.upper() + a.upper()* 3)
+
+#Ülesanne 6
+print("Rong see sõitus tsuhh tsuhh tsuhh,".upper())
+print("""piilupart oli rongijuht.
+Rattad tegid rat tat taa,
+rat tat taa ja tat tat taa.
+Aga seal rongi peal,
+kas sa tead, kes olid seal?
+
+Rong see sõitis tuut tuut tuut,
+piilupart oli rongijuht.
+Rattad tegid kill koll koll,
+kill koll koll ja kill koll kill.""".upper())
+ 
+#Ülesanne 7
