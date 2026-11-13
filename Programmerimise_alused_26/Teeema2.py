@@ -1,11 +1,11 @@
-try:
-     x = int(input("Siseste arv: "))
-     if x > 0:
-         print("Positiivne arv")
-         print("See rida on ka if-i sees")
-     print("See rida täidetakse alati")
-except ValueError:
-    print("Valed andmed")
+# try:
+#      x = int(input("Siseste arv: "))
+#      if x > 0:
+#          print("Positiivne arv")
+#          print("See rida on ka if-i sees")
+#      print("See rida täidetakse alati")
+# except ValueError:
+#     print("Valed andmed")
 
 #     if tingimus:
 #     tegevus_True
@@ -43,24 +43,25 @@ except ValueError:
 #     print("Palju")
 
 # 2.5Pesastatud tingimused
-try:
-    nimi = input("Sisesta nimi: ")
-    if nimi.isalpha():
-     print("Nimi sobib.")
-    vanus = int(input("Vanus: "))
-    if vanus >= 18:
-        juhiluba = input("Kas sul on juhiluba? (jah/ei) ")
-        if juhiluba.lower() == "jah":
-            print("Võid autot juhtida.")
-        else:
-            print("Kõigepealt tee juhiload.")
-    else:
-        print("Oled autojuhtimiseks liiga noor.")
-except ValueError:
-    print("Valed andmed. Sisesta täisarv")
+# try:
+#     nimi = input("Sisesta nimi: ")
+#     if nimi.isalpha():
+#      print("Nimi sobib.")
+#     vanus = int(input("Vanus: "))
+#     if vanus >= 18:
+#         juhiluba = input("Kas sul on juhiluba? (jah/ei) ")
+#         if juhiluba.lower() == "jah":
+#             print("Võid autot juhtida.")
+#         else:
+#             print("Kõigepealt tee juhiload.")
+#     else:
+#         print("Oled autojuhtimiseks liiga noor.")
+# except ValueError:
+#     print("Valed andmed. Sisesta täisarv")
 
 
         
-print("Ainult tähed:", nimi.isalpha())
-print("Suurtähtedega:", nimi.isupper())
-print("Algab suurtähega:", nimi.istitle())
+# print("Ainult tähed:", nimi.isalpha())
+# print("Suurtähtedega:", nimi.isupper())
+# print("Algab suurtähega:", nimi.istitle())
+
