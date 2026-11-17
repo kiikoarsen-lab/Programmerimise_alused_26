@@ -205,7 +205,7 @@ if valik.lower() == "jah":
         arve += f"Juust {kogus} {sai_hind}€  {toote_summa}€\n"
     else:
         print("Viga: vale kogus!")
-else:
+else:h
     print("Selge: Juust ei taha")
 
 
