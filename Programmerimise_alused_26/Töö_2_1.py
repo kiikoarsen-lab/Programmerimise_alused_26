@@ -140,6 +140,7 @@ if sugu in ["n","naine"]:
             print("Te olete väga lühikest kasvu ")
     except  ValueError:
         print("Viga! Palun sisesta korrektne hin ")
+
 #8
 from random  import *
 summa=0
